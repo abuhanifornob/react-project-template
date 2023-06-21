@@ -2,23 +2,14 @@ import React from 'react';
 
 import { FaFacebookF, FaFacebookMessenger } from 'react-icons/fa';
 
+import State from './components/State';
+import ConditionalRandaring from './components/ConditionalRandaring/ConditionalRandaring';
+
 const App = () => {
     return (
         <div>
-            <h2>This is React Icons Componemts</h2>
-            <button>
-                <span className="">
-                    <FaFacebookF className="icon" />
-                </span>
-                <span className="">
-                    <FaFacebookMessenger className="icon" />
-                </span>
-            </button>
-            <button>
-                <span className="">
-                    <FaFacebookMessenger className="icon" />
-                </span>
-            </button>
+            <State></State>
+            <ConditionalRandaring />
         </div>
     );
 };
