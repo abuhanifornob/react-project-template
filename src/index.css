@@ -12,6 +12,12 @@ html {
 
 body {
     background-color: #4c4c4c;
+    color: wheat;
+}
+.icon {
+    font-size: 30px;
+    margin: 20px;
+    color: green;
 }
 
 header {
