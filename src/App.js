@@ -1,15 +1,19 @@
 import React from 'react';
 
-import { FaFacebookF, FaFacebookMessenger } from 'react-icons/fa';
-
-import State from './components/State';
-import ConditionalRandaring from './components/ConditionalRandaring/ConditionalRandaring';
+import Assainment2 from './components/assainment2/Assainment2';
+import Form from './components/Form/Form';
+import FormUseObject from './components/Form/FormUseObject';
+import Parent from './components/stateLifting/Parent';
+import Home from './components/stateLifting/Home';
 
 const App = () => {
     return (
         <div>
-            <State></State>
-            <ConditionalRandaring />
+            {/* <Assainment2></Assainment2> */}
+            {/* <Form></Form> */}
+            {/* <FormUseObject></FormUseObject> */}
+            {/* <Parent></Parent> */}
+            <Home></Home>
         </div>
     );
 };
